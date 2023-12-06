@@ -1,0 +1,184 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.so-container{
+    max-width: 1336px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.hedaer-sec{
+    padding: 40px 0px;
+    display: flex;
+    align-items: baseline;
+}
+.hedaer-sec .logo-sec{
+    margin: 0 auto;
+    text-align: center;
+}
+.hedaer-sec .logo-sec h1{
+    color: #0f9cad;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.hedaer-sec .logo-sec img{
+    width: 100px;
+    height: auto;
+}
+.hedaer-sec .time-sec h3{
+    color: #0f9cad;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transition: 0.3s all ease-in-out;
+  }
+  
+.hedaer-sec .time-sec .req-form{
+    border:1px solid #0f9cad;
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #0f9cad;
+    transition: 0.3s all ease-in-out;
+    width: 200px;
+    margin: 0 auto;
+}
+.hedaer-sec .time-sec .req-form a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+.hedaer-sec .time-sec .req-form:hover{
+    background-color: transparent;  
+}
+.hedaer-sec .time-sec .req-form:hover a{
+    color: #0f9cad;
+}
+.hedaer-sec .time-sec .req-form:hover .arrow{
+    border: solid #0f9cad;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg)translate(5px,5px);
+}
+.hedaer-sec .cont-sec a{
+    text-decoration: none;
+    color: #0f9cad;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.hedaer-sec .cont-sec a:hover{
+    color: #15518d;
+}
+.hedaer-sec .cont-sec a span svg{
+    width: 25px;
+    margin-right: 5px;
+    height: auto;
+}
+.hedaer-sec .cont-sec a span svg g path{
+    transition: 0.3s all ease-in-out;
+}
+.hedaer-sec .cont-sec .call-btn:hover a span svg g path{
+    fill: #0f9cad;
+}
+.hedaer-sec .cont-sec .call-btn{
+    border:1px solid #0f9cad;
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #0f9cad;
+    transition: 0.3s all ease-in-out;
+    width: 200px;
+    margin: 0 auto;
+}
+.hedaer-sec .cont-sec .call-btn a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+.hedaer-sec .cont-sec .call-btn:hover a{
+    background-color: transparent; 
+    color: #0f9cad;
+}
+.hedaer-sec .cont-sec .call-btn:hover{
+    background-color: #ffffff;
+}
+.hedaer-sec .cont-sec .mail{
+    margin-bottom: 20px;
+}
+.menu-sec{
+    padding: 10px;
+    background-color: #0f9cad;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+.menu-sec ul li a:hover{
+    color: black;
+}
+.menu-sec .nav.nav-pills{
+   justify-content: center;
+}
+.menu-sec ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 5px;
+}
+.nav-link:focus{
+    color: black !important;
+}
+.menu-sec .nav-item.dropdown .dropdown-menu{
+    width: 200px;
+}
+.menu-sec .nav-item.dropdown .dropdown-menu .dropdown-item{
+    color: #0f9cad;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.menu-sec .nav-item.dropdown .dropdown-menu .dropdown-item::after{
+    position: absolute;
+    content: "";
+    background-color: #0f9cad;
+    width: 0%;
+    bottom: 0;
+    left: 5%;
+    height: 1px;
+    transition: 0.3s all ease-in-out;
+}
+.menu-sec .nav-item.dropdown .dropdown-menu .dropdown-item:hover{
+    background: transparent;
+}
+.menu-sec .nav-item.dropdown .dropdown-menu .dropdown-item:hover::after{
+    width: 90%;
+}
