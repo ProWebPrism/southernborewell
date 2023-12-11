@@ -70,3 +70,14 @@ $(window).scroll(function() {
   }
 
 });
+
+
+$(document).on("scroll", function(){
+  var scrollPos = $(document).scrollTop();
+  if(scrollPos >= 590){
+    $( ".service-tabs-wrapp" ).first().addClass('fixed');
+  }else{
+    $( ".service-tabs-wrapp" ).first().removeClass('fixed');
+  }
+});
+

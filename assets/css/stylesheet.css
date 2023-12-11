@@ -172,3 +172,51 @@ content: "";background-color: #08b7d5;}
 .counter-wrapp .counter-outer .counter-box span.counter-title { display: block; font-size: 34px; font-weight: 600; color: #02325e;}
 .counter-wrapp .counter-outer .counter-box h2.counter:after { content: "+"; font-size: 60px; display: inline-block;}
 .counter-wrapp:after {content: "";position: absolute;width: 100%;height: 100%;top: 0;left: 0;background: rgb(255 255 255 / 90%);}
+
+
+
+/* ------------------inner-banner-------------------- */
+.inner-banner {position: relative;height: 250px;display: flex; flex-wrap: wrap; align-items: center;}
+.inner-banner .banner-bg {width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.inner-banner .banner-bg img {width: 100%;height: 100%;object-fit: cover;}
+.inner-banner:after {content: "";position: absolute; width: 100%; height: 100%;background: rgb(255 255 255 / 40%); top: 0; left: 0;}
+.inner-banner .inner-banner-conten {position: relative;z-index: 1;width: 100%;}
+.inner-banner .inner-banner-conten h1 {font-size: 60px;font-weight: 600; color: #02427d;text-align: center;margin: 0 0 17px;}
+.inner-banner .inner-banner-conten ul.bread-crumbs {width: 100%;display: inline-block;text-align: center;}
+.inner-banner .inner-banner-conten ul.bread-crumbs li {display: inline-block; color: #02427d;font-size: 18px; font-weight: 600; position: relative;}
+.inner-banner .inner-banner-conten ul.bread-crumbs li a {color: #000;}
+.inner-banner .inner-banner-conten ul.bread-crumbs li a:hover {color: #02427d;}
+.inner-banner .inner-banner-conten ul.bread-crumbs li:after { content: "/"; display: inline-block; font-weight: 600; margin: 0 5px 0 7px;}
+.inner-banner .inner-banner-conten ul.bread-crumbs li:last-child:after { display: none;}
+
+
+
+/* -------------------service-tabs-wrapp------------------ */
+.service-tabs-wrapp {padding: 10px 0; border-bottom: 1px solid rgb(8 183 213 / 30%);background: #ffffff; transition: 0.3s all ease-in-out;}
+.service-tabs-wrapp.fixed {position: fixed;top: 0;z-index: 1; box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.05);}
+.service-tabs-wrapp  ul.service-tabs { width: 100%; text-align: center;}
+.service-tabs-wrapp ul.service-tabs li {display: inline-block;}
+.service-tabs-wrapp ul.service-tabs li a { padding: 15px 13px; display: block; color: #000;  font-weight: 500; position: relative;}
+.service-tabs-wrapp ul.service-tabs li a:hover{color: #02427d;}
+.service-tabs-wrapp ul.service-tabs li a.active{color: #02427d;}
+.service-tabs-wrapp ul.service-tabs li a:after {content: ""; position: absolute;width: 0;height: 3px;background: #02427d;bottom: 7px; left: 50%; transform: translateX(-50%); transition: all .4s ease-in-out;}
+.service-tabs-wrapp ul.service-tabs li a:hover:after{width: 80%;}
+.service-tabs-wrapp ul.service-tabs li a.active:after{width: 80%;}
+
+
+/* ----------------------services-wrapp------------------------- */
+.services-wrapp {padding: 70px 0;}
+.services-wrapp .services-box {width: 100%; padding: 70px 0;}
+.services-wrapp .services-box .services-col1 { width: 43%; padding: 55px;}
+.services-wrapp .services-box .services-col1 .services-img { position: relative; width: 100%;}
+.services-wrapp .services-box .services-col1 .services-img img {width: 100%; height: 100%; max-height: 485px; object-fit: cover;}
+.services-wrapp .services-box .services-col2 { width: 48%;}
+.services-wrapp .services-box .services-col2 h2 { font-size: 32px; font-weight: 600; color: #02427d; margin: 0 0 20px;}
+.services-wrapp .services-box .services-col2 p { font-size: 16px; color: #000000; line-height: 24px; margin: 0 0 15px;}
+.services-wrapp .services-box .services-col2 ul li { font-size: 16px; line-height: 24px; margin: 0 0 10px; color: #000;position: relative;padding: 0 0 0 20px;}
+.services-wrapp .services-box .services-col2 ul li::before{content: ""; position: absolute;background: url(../images/chevron-right-solid.svg) no-repeat center;width: 8px;height: 11px;background-size: 100%;left: 0;top: 5px; }
+.services-wrapp .services-box  .services-row { align-items: center; justify-content: space-between;}
+.services-wrapp .services-box:nth-child(even) .services-row { flex-direction: row-reverse;}
+.services-wrapp .services-box .services-col1 .services-img .shape3 { display: block; width: 200px; height: 200px; background: #08b7d5;  position: absolute; top: -55px; left: -55px; z-index: -1;}
+.services-wrapp .services-box .services-col1 .services-img span.shape2 { display: block; width: 200px; height: 200px;background: #02427d; position: absolute; bottom: -55px; right: -55px; z-index: -1;}
+
