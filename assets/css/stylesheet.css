@@ -217,6 +217,6 @@ content: "";background-color: #08b7d5;}
 .services-wrapp .services-box .services-col2 ul li::before{content: ""; position: absolute;background: url(../images/chevron-right-solid.svg) no-repeat center;width: 8px;height: 11px;background-size: 100%;left: 0;top: 5px; }
 .services-wrapp .services-box  .services-row { align-items: center; justify-content: space-between;}
 .services-wrapp .services-box:nth-child(even) .services-row { flex-direction: row-reverse;}
-.services-wrapp .services-box .services-col1 .services-img .shape3 { display: block; width: 200px; height: 200px; background: #08b7d5;  position: absolute; top: -55px; left: -55px; z-index: -1;}
+.services-wrapp .services-box .services-col1 .services-img .shape3 { display: block; width: 100%;height: 100%;background: #02427d;position: absolute;top: -25px;left: -25px;z-index: -1;}
 .services-wrapp .services-box .services-col1 .services-img span.shape2 { display: block; width: 200px; height: 200px;background: #02427d; position: absolute; bottom: -55px; right: -55px; z-index: -1;}
 
