@@ -207,7 +207,7 @@ content: "";background-color: #08b7d5;}
 /* ----------------------services-wrapp------------------------- */
 .services-wrapp {padding: 70px 0;}
 .services-wrapp .services-box {width: 100%; padding: 70px 0;}
-.services-wrapp .services-box .services-col1 { width: 43%; padding: 55px;}
+.services-wrapp .services-box .services-col1 { width: 43%; }
 .services-wrapp .services-box .services-col1 .services-img { position: relative; width: 100%;}
 .services-wrapp .services-box .services-col1 .services-img img {width: 100%; height: 100%; max-height: 485px; object-fit: cover;}
 .services-wrapp .services-box .services-col2 { width: 48%;}
