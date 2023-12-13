@@ -81,3 +81,15 @@ $(document).on("scroll", function(){
   }
 });
 
+jQuery('.gallery').featherlightGallery({ gallery: { fadeIn: 300, fadeOut: 300 }, openSpeed: 300, closeSpeed: 300 }); jQuery('.gallery2').featherlightGallery({ gallery: { next: 'next »', previous: '« previous' }, variant: 'featherlight-gallery2' });
+
+
+$(".gallerin").hide();
+	$(".gallerin:first").show();
+	$(".tab-switch").click(function() {
+	$(".gallery-wrapp .gallerin").hide();
+	var activeTab = $(this).attr("rel"); 
+	$("#"+activeTab).fadeIn();		
+	$(".tab-switch").removeClass("active");
+	$(this).addClass("active");
+    });
