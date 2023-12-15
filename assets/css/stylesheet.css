@@ -252,7 +252,16 @@ content: "";background-color: #08b7d5;}
 .gallery-tabs ul li a.active {border-bottom: 3px solid #02427d; color: #02427d;}
 .gallery-tabs .gallery-wrapp {padding: 70px 0 0;}
 .gallery-tabs .gallery-wrapp .gallerin { width: 100%; display: flex; flex-wrap: wrap;}
-.gallery-tabs .gallery-wrapp .gallerin .gallery-box { width: 23.5%; margin: 0 2% 2% 0;}
+.gallery-tabs .gallery-wrapp .gallerin .gallery-box { width: 23.5%; margin: 0 2% 2% 0;overflow: hidden; height: 206px;}
 .gallery-tabs .gallery-wrapp .gallerin .gallery-box:nth-child(4n) { margin-right: 0;}
-.gallery-tabs .gallery-wrapp .gallerin .gallery-box .gallery-bar1 img {transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s;}
-.gallery-tabs .gallery-wrapp .gallerin .gallery-box .gallery-bar1:hover img { transform: scale(1.08); transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s; filter: grayscale(100%);}
+.gallery-tabs .gallery-wrapp .gallerin .gallery-box .gallery-bar1 {width: 100%;height: 100%;position: relative;}
+.gallery-tabs .gallery-wrapp .gallerin .gallery-box .gallery-bar1 img {height: 100%; width: 100%;object-fit: cover; transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s;}
+.gallery-tabs .gallery-wrapp .gallerin .gallery-box .gallery-bar1:hover img {transform: scale(1.08); transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s; filter: grayscale(100%);}
+div#html5lightbox-watermark { display: none !important;}
+.html5-elem-data-box { display: none !important;}
+div#html5box-html5-lightbox-nav {display: none !important;}
+.html5-prev, .html5-next{display: block !important;}
+.html5-prev-outside .mh-icon-left, .html5-next-outside .mh-icon-right, .html5-prev-fullscreen .mh-icon-left, .html5-next-fullscreen .mh-icon-right{background: none !important;}
+
+
+
