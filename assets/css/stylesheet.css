@@ -78,7 +78,7 @@ img{max-width: 100%;}
 
 
 /*-----------------slider-sec---------------------- */
-
+.banner-sec {position: relative;}
 .banner-sec .bannerSwiper .swiper-slide{padding: 80px 0px;background-image: url("../images/borewell-drilling-services.jpg");background-position: center center;background-repeat: no-repeat;background-size:cover; position: relative;}
 .banner-sec .bannerSwiper .slider-content {max-width:600px;z-index: 6;background-color: rgba(255, 255, 255, 0.9);padding: 60px;border-radius: 20px;}
 .banner-sec .bannerSwiper .slider-content h4{font-weight: 400; position: relative;color: #08b7d5;font-size: 25px;font-family: 'Roboto', sans-serif;}
@@ -87,6 +87,9 @@ img{max-width: 100%;}
 .banner-sec .bannerSwiper .slider-content p{color: #000000;font-size: 16px;line-height: 24px; margin-top: 20px;font-weight: 400;font-family: 'Roboto', sans-serif;}
 .banner-sec .bannerSwiper .slider-content a{margin-top: 20px; color: #fff;display: block;width: fit-content;background: #02427d;padding: 16px 24px;font-weight: 600;transition: 0.3s all ease-in-out;border-radius: 10px;border: 1px solid #02427d;}
 .banner-sec .bannerSwiper .slider-content a:hover{background-color: transparent;color: #02427d;}
+.banner-sec .intro-video {position: absolute; right: 10%;top: 35%;transform: translateY(-50%);z-index: 9;}
+.banner-sec .intro-video .video-play-button {position: relative; left: inherit; top: inherit; transform: none;}
+.banner-sec .intro-video .intro-video-title { display: inline-block; color: #fff; font-size: 16px; margin: 17px 0 0 17px; font-weight: 700;}
 
 
 
@@ -264,7 +267,7 @@ div#html5box-html5-lightbox-nav {display: none !important;}
 .html5-prev-outside .mh-icon-left, .html5-next-outside .mh-icon-right, .html5-prev-fullscreen .mh-icon-left, .html5-next-fullscreen .mh-icon-right{background: none !important;}
 
 
-
+/* -------------------footer-sec--------------------- */
 .footer-sec{position: relative; background: url("../images/water.jpg"); padding: 80px 0px; background-size:cover; background-position: center center; background-repeat: no-repeat; padding-bottom:0px;}
 .footer-sec::after{z-index: 2; content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0;background-color: #02172b;opacity: 0.9;}
 
@@ -304,3 +307,26 @@ div#html5box-html5-lightbox-nav {display: none !important;}
 .footer-sec .bt-footer{color: #fff; position: relative; z-index: 10;padding: 30px 0px;}
 .footer-sec .bt-footer .com-link{text-align: right; }
 .footer-sec .bt-footer .com-link a{color: #08b7d5;}
+
+
+
+/* -------------service-inner---------- */
+.service-inner-wrapp { padding: 80px 0 70px;}
+.service-inner-wrapp .service-inner-row {width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin: 0 0 48px;}
+.service-inner-wrapp .service-inner-row .service-inner-img {width: 100%;max-height: 450px;overflow: hidden;}
+.service-inner-wrapp .service-inner-row .service-inner-col1 {width: 44%;}
+.service-inner-wrapp .service-inner-row .service-inner-img img { width: 100%; height: 100%; object-fit: cover;}
+.service-inner-wrapp .service-inner-row .service-inner-col2 { width: 48%;}
+.service-inner-wrapp .service-inner-row p { font-size: 16px; line-height: 24px; margin: 0 0 20px;}
+.service-inner-wrapp .service-inner-row h2 {font-size: 32px; font-weight: 600; color: #02427d; margin: 0 0 20px;}
+.service-inner-wrapp .service-inner-row h3 { font-size: 25px; font-weight: 500;margin-bottom: 20px;color: #02427d;position: relative;}
+.service-inner-wrapp .service-inner-row h4 { font-size: 25px; font-weight: 500;margin-bottom: 20px;color: #08b7d5;position: relative;}
+.service-inner-wrapp .service-inner-row h4:before {position: absolute; content: ""; background-image: url(../images/shape-headline.svg); width: 50px; height: 10px; top: -25px; left: 0; background-repeat: no-repeat;}
+
+
+
+/* ---------------youtube-slider-wrapp----------------- */
+.youtube-slider-wrapp { padding: 70px 0 90px;}
+.youtube-slider-wrapp .videoSwiper { width: 100%; padding-bottom: 40px;}
+.youtube-slider-wrapp .videoSwiper .youtube-video-box {position: relative;}
+.youtube-slider-wrapp .swiper-pagination {top: inherit !important; bottom: 0 !important;}
