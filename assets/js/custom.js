@@ -54,6 +54,22 @@ var videoSwiper = new Swiper(".videoSwiper", {
   },
 });
 
+var serviceSwiper = new Swiper(".serviceSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 6000,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 
 var a = 0;
 $(window).scroll(function() {
