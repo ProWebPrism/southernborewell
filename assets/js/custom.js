@@ -169,3 +169,14 @@ $(".js-video-button").modalVideo({
         hideClass: 'fx-fadeOut'
       });
       });
+
+
+      $('.pop-up-toggle').on('click', function(e) {
+        $('.pop-up-wrapp').addClass("show"); //you can list several class names 
+        e.preventDefault();
+      });
+
+      $('.close').on('click', function(e) {
+        $('.pop-up-wrapp').removeClass("show"); //you can list several class names 
+        e.preventDefault();
+      });
