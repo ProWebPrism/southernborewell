@@ -216,3 +216,10 @@ $(".js-video-button").modalVideo({
         $('.pop-up-wrapp').removeClass("show"); //you can list several class names 
         e.preventDefault();
       });
+
+      $('.overlay-toggle').on('click', function(e) {
+        $('.overlay').toggleClass("show"); 
+        $(this).toggleClass("active")
+        e.preventDefault();
+      });
+    
