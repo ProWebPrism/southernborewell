@@ -242,7 +242,7 @@ $(".js-video-button").modalVideo({
           var paragraphHeight = paragraph.clientHeight;
           var lineHeight = parseFloat(style.lineHeight) || 1.2 * parseFloat(style.fontSize);
           var lineClamp = Math.floor(paragraphHeight / lineHeight);
-          if (lineClamp <= 4) {
+          if (lineClamp < 4) {
             var readMoreButton = paragraph.nextElementSibling;
             if (readMoreButton && readMoreButton.classList.contains('read-btn')) {
               readMoreButton.classList.add('hidden');
