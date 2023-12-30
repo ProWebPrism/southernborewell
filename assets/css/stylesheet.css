@@ -484,7 +484,7 @@ box-shadow: 0px 0px 84px -10px rgba(0,0,0,1);
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  z-index: 99999999;
+  z-index: 99999;
 }
 .sticky-icons div a svg{
   fill: #02427d;
