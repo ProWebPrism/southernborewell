@@ -222,4 +222,31 @@ $(".js-video-button").modalVideo({
         $(this).toggleClass("active")
         e.preventDefault();
       });
+
+      $('.read-btn').on('click', function(e) {
+        $(this).closest('.author-des').toggleClass("readmore");
+        $(this).toggleClass("active");
+        if($(this).hasClass("active")){
+        $(this).text("Read Less")
+        }else{
+          $(this).text("Read More")
+        }
+        e.preventDefault();
+      });
     
+      document.addEventListener('DOMContentLoaded', function() {
+        var paragraphs = document.querySelectorAll('.author-des p');
+  
+        paragraphs.forEach(function(paragraph) {
+          var style = window.getComputedStyle(paragraph);
+          var paragraphHeight = paragraph.clientHeight;
+          var lineHeight = parseFloat(style.lineHeight) || 1.2 * parseFloat(style.fontSize);
+          var lineClamp = Math.floor(paragraphHeight / lineHeight);
+          if (lineClamp <= 4) {
+            var readMoreButton = paragraph.nextElementSibling;
+            if (readMoreButton && readMoreButton.classList.contains('read-btn')) {
+              readMoreButton.classList.add('hidden');
+            }
+          }
+        });
+      });
