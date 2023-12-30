@@ -464,7 +464,37 @@ margin: 0 auto;background-color: #02325e;}
 
 
 
+/* sticky-iconss */
 
+.sticky-icons{
+  width: 50px;
+  height: 150px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255,0.9);
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 84px -10px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 84px -10px rgba(0,0,0,1);
+box-shadow: 0px 0px 84px -10px rgba(0,0,0,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 99999999;
+}
+.sticky-icons div a svg{
+  fill: #02427d;
+}
+.sticky-icons div a{
+  display: block;
+}
+.sticky-icons div{
+  margin-bottom: 10px;
+}
 
 
 @media only screen and (max-width: 480px){
@@ -481,8 +511,11 @@ margin: 0 auto;background-color: #02325e;}
     font-size: 20px;
   }
   .banner-sec .bannerSwiper .slider-content h2{
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 0;
+  }
+  .abouts-wrapp .abouts-content .abouts-col2 h2{
+    font-size: 30px;
   }
   .abouts-wrapp, .abouts-content{
     padding: 40px 0px;
@@ -690,6 +723,33 @@ header.header-mob .contact-btns a.pop-up-toggle {
     font-size: 12px;
     width: 100%;
 }
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field input{
+  height: 40px;
+  margin: 0 0 10px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+  margin: 0 0 10px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+  height: 80px;
+}
+.pop-up-wrapp .pop-up .pop-up-content{
+  padding: 50px 20px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .close-btn{
+  top: -35px;
+  right: 0px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col1{
+  display: none;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2{
+  width: 100%;
+  padding-left: 0;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col1 p{
+  font-size: 12px;
+}
 }
 
 
@@ -839,7 +899,32 @@ header.header-mob .contact-btns a.pop-up-toggle {
     margin-top: 20px;
     font-size: 12px;
   }
-  
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field input{
+    height: 40px;
+    margin: 0 0 10px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+    margin: 0 0 10px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+    height: 80px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content{
+    padding: 40px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .close-btn{
+    top: -30px;
+    right: -30px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col1{
+    width: 40%;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2{
+    width: 60%;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col1 p{
+    font-size: 12px;
+  }
 }
 
 
@@ -963,6 +1048,23 @@ header.header-mob .contact-btns a.pop-up-toggle {
     text-align: center;
     margin-top: 20px;
   }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field input{
+    height: 40px;
+    margin: 0 0 10px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+    margin: 0 0 10px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+    height: 80px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content{
+    padding: 40px;
+  }
+  .pop-up-wrapp .pop-up .pop-up-content .pop-up-row .close-btn{
+    top: -30px;
+    right: -30px;
+  }
 }
 
 
@@ -1085,7 +1187,23 @@ header.header-mob .contact-btns a.pop-up-toggle {
 .banner-sec .intro-video .intro-video-title {
   display: none;
 }
-
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field input{
+  height: 40px;
+  margin: 0 0 10px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+  margin: 0 0 10px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .pop-up-col2 .form-wrapp .text-fields .text-field textarea{
+  height: 80px;
+}
+.pop-up-wrapp .pop-up .pop-up-content{
+  padding: 40px;
+}
+.pop-up-wrapp .pop-up .pop-up-content .pop-up-row .close-btn{
+  top: -30px;
+  right: -30px;
+}
 }
 
 
